@@ -1,6 +1,6 @@
 .style-switcher {
     position: fixed;
-    right: 0;
+    right: 200px;
     top: 60px;
     padding: 15px;
     width: 200px;
@@ -13,7 +13,7 @@
 }
 
 .style-switcher .open {
-    transform: translateX(-25px);
+    transform: translateX(-25);
 }
 
 .style-switcher .s-icon {
@@ -53,6 +53,7 @@
 }
 
 .style-switcher .colors {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
