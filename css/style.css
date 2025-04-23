@@ -623,11 +623,30 @@ h3.my-profession {
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    text-align: center;
+}
+.portfolio .portfolio-item-inner h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.portfolio .portfolio-item-inner p {
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
     display: block;
+}
+.portfolio .portfolio-item-inner .icon .fa {
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+
 }
 
 /* contact */
