@@ -760,6 +760,7 @@ h3.my-profession {
     }
 
     .about .about-content .education,
+    .about .about-content .experience,
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
