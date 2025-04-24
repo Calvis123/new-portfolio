@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Style switcher toggle
     styleSwitcherToggler.addEventListener("click", () => {
-        document.querySelector(".style-switcher").classList.toggle("open");
+        styleSwitcher.classList.toggle("open");
     })
     
     // Close when clicking outside
